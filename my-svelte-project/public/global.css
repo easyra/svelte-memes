@@ -127,15 +127,21 @@ table {
 
 html {
   font-family: 'Roboto', sans-serif;
-  line-height: 1.25;
 }
 * {
   box-sizing: border-box;
 }
 body {
   background: #f2f1f1;
+	line-height: 1.25;
+	color: #0d0d0d'
 }
 /* Color Theme Swatches in Hex */
+
+a,
+a:active {
+  color: inherit;
+}
 .color1 {
   color: #ca2222;
 }
@@ -150,4 +156,15 @@ body {
 }
 .color5 {
   color: #0d0d0d;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 1.25
+}
+strong{
+  font-weight: bold;
 }

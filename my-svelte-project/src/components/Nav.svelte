@@ -4,6 +4,7 @@
 
 <style>
   header {
+    padding: 15px;
     margin: 0;
     width: 100%;
     background: #ca2222;
@@ -38,9 +39,7 @@
   <nav>
     <h1>Ezra Davis</h1>
     <div class="nav-items">
-      <div class="nav-item">About</div>
-      <div class="nav-item">Portfolio</div>
-      <div class="nav-item">Contact</div>
+      <i class="fas fa-bars fa-2x" />
     </div>
   </nav>
 </header>
