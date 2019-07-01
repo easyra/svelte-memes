@@ -46,10 +46,10 @@
     <h3>
        {title}
       <a href={github} class="link">
-        <i class="fab fa-github" />
+        <i class="fab fa-github" title="Project Repo" />
       </a>
       <a href={website} class="link">
-        <i class="fas fa-wifi" />
+        <i class="fas fa-wifi" title="Deployed Site" />
       </a>
 
     </h3>

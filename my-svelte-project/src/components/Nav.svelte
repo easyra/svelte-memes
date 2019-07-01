@@ -4,13 +4,14 @@
 
 <style>
   header {
-    padding: 15px;
-    margin: 0;
+    padding: 10px;
     width: 100%;
     background: #ca2222;
     border-bottom: #f1c5c5 5px solid;
     color: #f2f1f1;
     text-transform: uppercase;
+    position: fixed;
+    top: 0;
   }
   nav {
     display: flex;

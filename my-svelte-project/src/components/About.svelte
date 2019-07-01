@@ -2,6 +2,7 @@
   .about {
     display: flex;
     flex-direction: column;
+    margin: 50px 0 0 0;
   }
   .content {
     width: 100%;
