@@ -1,0 +1,46 @@
+<script>
+  export let theme;
+</script>
+
+<style>
+  header {
+    margin: 0;
+    width: 100%;
+    background: #ca2222;
+    border-bottom: #f1c5c5 5px solid;
+    color: #f2f1f1;
+    text-transform: uppercase;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  .nav-items {
+    display: flex;
+    align-items: center;
+  }
+  .nav-item {
+    padding: 15px;
+    margin: 0 5px;
+  }
+</style>
+
+<header>
+  <nav>
+    <h1>Ezra Davis</h1>
+    <div class="nav-items">
+      <div class="nav-item">About</div>
+      <div class="nav-item">Portfolio</div>
+      <div class="nav-item">Contact</div>
+    </div>
+  </nav>
+</header>
