@@ -12,9 +12,16 @@
     justify-content: space-between;
     align-items: center;
     color: #f1c5c5;
+    flex-wrap: wrap;
   }
   .link {
-    margin: 0 0 0 10px;
+    margin: 0 10px 0 0px;
+  }
+  .socials {
+  }
+
+  .text {
+    padding: 8px 0;
   }
 </style>
 

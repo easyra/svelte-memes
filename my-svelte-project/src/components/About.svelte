@@ -32,6 +32,7 @@
     font-size: 72px;
     margin: 0 0 15px 0;
   }
+
   .socials {
     max-width: 500px;
     padding: 15px;
@@ -51,6 +52,22 @@
   a:active {
     color: #f1c5c5;
   }
+  @media (max-width: 800px) {
+    h1 {
+      text-align: center;
+    }
+    .content {
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 50px;
+    }
+  }
 </style>
 
 <section class="about">
@@ -63,7 +80,7 @@
         involved with working in the tech industry has always been it’s greatest
         pull. Being able to do just that professionally is something I’ll
         <strong>never regret working towards.</strong>
-        If anyone reading this sees hears the voice of someone willing to
+        If anyone reading this hears the voice of someone willing to
         <strong>give it there all,</strong>
         I hope we can
         <strong>work together</strong>

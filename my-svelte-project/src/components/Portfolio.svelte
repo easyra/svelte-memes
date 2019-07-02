@@ -13,6 +13,12 @@
     text-align: right;
     border-bottom: 5px solid #db3e3e;
   }
+  @media (max-width: 500px) {
+    h2 {
+      font-size: 50px;
+      text-align: center;
+    }
+  }
 </style>
 
 <section class="portfolio">

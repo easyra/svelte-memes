@@ -36,6 +36,11 @@
   p {
     line-height: 1.5;
   }
+  @media (max-width: 800px) {
+    .project {
+      flex-wrap: wrap;
+    }
+  }
 </style>
 
 <div class="project">

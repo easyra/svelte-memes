@@ -29,6 +29,10 @@
   .nav-items {
     display: flex;
     align-items: center;
+    position: relative;
+  }
+  .nav-items i {
+    cursor: pointer;
   }
   .nav-item {
     padding: 15px;
