@@ -8,6 +8,8 @@ const app = new App({
     linkedin: 'https://www.linkedin.com/in/ezra-davis/',
     twitter: 'https://twitter.com/ezradavisdev',
     email: 'ezra.rr.davis@gmail.com',
+    resume:
+      'https://drive.google.com/open?id=1wcAi03wZGLtG7yTJDQon32WLMwyf3DCoSAE_Di1E0RE',
     theme: {
       color1: '#CA2222',
       color2: '#DB3E3E',

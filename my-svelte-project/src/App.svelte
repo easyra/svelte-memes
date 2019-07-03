@@ -1,5 +1,5 @@
 <script>
-  export let github, linkedin, twitter, email;
+  export let github, linkedin, resume, email;
   import Nav from "./components/Nav.svelte";
   import About from "./components/About.svelte";
   import Portfolio from "./components/Portfolio.svelte";
@@ -10,7 +10,7 @@
 
 </style>
 
-<Nav />
+<Nav {github} {resume} {linkedin} {email} />
 <About />
 <Portfolio />
-<Footer {github} {twitter} {linkedin} {email} />
+<Footer {github} {resume} {linkedin} {email} />

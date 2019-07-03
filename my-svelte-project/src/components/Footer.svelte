@@ -1,5 +1,5 @@
 <script>
-  export let email, twitter, github, linkedin;
+  export let email, resume, github, linkedin;
 </script>
 
 <style>
@@ -39,8 +39,8 @@
     <a href={linkedin} class="link">
       <i class="fab fa-linkedin fa-2x" />
     </a>
-    <a href={twitter} class="link">
-      <i class="fab fa-twitter fa-2x" />
+    <a href={resume} class="link">
+      <i class="fas fa-file fa-2x" />
     </a>
 
   </div>

@@ -100,7 +100,7 @@
           <i class="fab fa-github fa-5x" title="GitHub" />
         </a>
         <a href="" class="link">
-          <i class="fab fa-twitter fa-5x" title="Twitter" />
+          <i class="fas fa-file fa-5x" title="Resume" />
         </a>
       </div>
     </div>

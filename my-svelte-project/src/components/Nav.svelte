@@ -1,5 +1,5 @@
 <script>
-  export let theme;
+  export let theme, email, resume, github, linkedin;
   let showMenu = false;
   import { fly, fade } from "svelte/transition";
 </script>
@@ -73,9 +73,9 @@
       on:mouseleave={() => (showMenu = false)}>
       {#if showMenu}
         <div class="nav-items" transition:fly={{ x: 200, duration: 200 }}>
-          <a href="" class="nav-item">Github</a>
-          <a href="" class="nav-item">Linkedin</a>
-          <a href="" class="nav-item">Twitter</a>
+          <a href={github} class="nav-item">Github</a>
+          <a href={linkedin} class="nav-item">Linkedin</a>
+          <a href={resume} class="nav-item">Resume</a>
         </div>
       {/if}
     </i>
