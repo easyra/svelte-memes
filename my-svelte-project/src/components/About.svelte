@@ -94,7 +94,8 @@
         <strong>give it there all,</strong>
         I hope we can
         <strong>work together</strong>
-        and build something great!
+        and build something
+        <strong>great!</strong>
       </p>
       <div class="socials">
         <a href={linkedin} class="link">

@@ -1,5 +1,5 @@
 <script>
-  export let title, summary, imgLink, github, website;
+  export let title, summary, imgLink, github, website, teamSize;
 </script>
 
 <style>
@@ -18,9 +18,19 @@
   }
   h3 {
     font-size: 32px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     display: flex;
     align-items: center;
+    /* position: relative; */
+  }
+  h4 {
+    /* margin: 0 0 0 5px; */
+    color: #db3e3e;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    /* position: absolute; */
+    /* right: 0; */
   }
   .link {
     margin-left: 10px;
@@ -58,8 +68,12 @@
       </a>
 
     </h3>
+    {#if teamSize && teamSize > 1}
+      <h4>Team of {teamSize}</h4>
+    {/if}
     <p>
       {@html summary}
     </p>
+
   </div>
 </div>

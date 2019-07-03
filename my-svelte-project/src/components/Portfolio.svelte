@@ -30,27 +30,29 @@
         imgLink="https://i.imgur.com/eT2NrrM.png"
         github="https://github.com/Lambda-School-Labs/Labs8-DeveloperMap"
         website="https://www.mappajob.com/"
+        teamSize={4}
         summary="MappaJob is a map-based application geared towards helping job
         seekers find employers and vice-versa in a specific geographic area.
         This project was created by a team of four using a FERN stack consisting
         of the technologies: <strong>Firebase, Express.js, React, and
         Node.js.</strong> My responsibilities involved work in the both the
-        front-end and back-end of this projects. Some of these responsibilities
-        include designing a maintainable backend REST API, Implementing reusable
-        React Components for interactive user experience, reviewing
-        contributions and pull requests for the project and more." />
+        <strong>front-end and back-end</strong> of this projects. Some of these
+        responsibilities include designing a maintainable backend <strong>REST
+        API,</strong> Implementing <strong>reusable React Components</strong>
+        for interactive user experience, <strong>reviewing contributions and
+        pull requests</strong> for the project and more." />
       <Project
         title="Lambda Notes"
         imgLink="https://i.imgur.com/TPdivrC.png"
         github=""
         summary="Lambda Notes is a note taking application that allows users to
         organize their information in an efficient manner. Users are able to
-        post notes to a REST API and have those notes be displayed for everyone
-        to see. Lambda Notes also has other features that create a more
-        enjoyable experience for users such as support for premade themes,
-        tagging support for notes, and the ability to search by note title or
-        tag. I created this project using <strong>Reactjs, SQLite, Nodejs, and
-        Expressjs.</strong> " />
+        post notes to a <strong>REST API</strong> and have those notes be
+        displayed for everyone to see. Lambda Notes also has other features that
+        create a more enjoyable experience for users such as support for
+        <strong>premade themes,</strong> <strong>tagging</strong> support for
+        notes, and the ability to search by note title or tag. I created this
+        project using <strong>Reactjs, SQLite, Nodejs, and Expressjs.</strong> " />
     </div>
   </div>
 </section>
