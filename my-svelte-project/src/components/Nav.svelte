@@ -27,6 +27,7 @@
     font-weight: bold;
     font-size: 24px;
     margin: 0 5px;
+    cursor: pointer;
   }
   .nav-items {
     display: flex;
@@ -64,7 +65,7 @@
 
 <header>
   <nav>
-    <h1>Ezra Davis</h1>
+    <h1 onclick={() => (document.scrollTop = 0)}>Ezra Davis</h1>
     <i
       class="fas fa-bars fa-2x menu"
       on:click={() => (showMenu = !showMenu)}

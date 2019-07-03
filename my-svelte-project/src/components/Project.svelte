@@ -58,6 +58,8 @@
       </a>
 
     </h3>
-    <p>{summary}</p>
+    <p>
+      {@html summary}
+    </p>
   </div>
 </div>

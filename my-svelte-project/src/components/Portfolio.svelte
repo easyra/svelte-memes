@@ -33,12 +33,12 @@
         summary="MappaJob is a map-based application geared towards helping job
         seekers find employers and vice-versa in a specific geographic area.
         This project was created by a team of four using a FERN stack consisting
-        of the technologies: Firebase, Express.js, React, and Node.js. My
-        responsibilities involved work in the both the front-end and back-end of
-        this projects. Some of these responsibilities include designing a
-        maintainable backend REST API, Implementing reusable React Components
-        for interactive user experience, reviewing contributions and pull
-        requests for the project and more." />
+        of the technologies: <strong>Firebase, Express.js, React, and
+        Node.js.</strong> My responsibilities involved work in the both the
+        front-end and back-end of this projects. Some of these responsibilities
+        include designing a maintainable backend REST API, Implementing reusable
+        React Components for interactive user experience, reviewing
+        contributions and pull requests for the project and more." />
       <Project
         title="Lambda Notes"
         imgLink="https://i.imgur.com/TPdivrC.png"
@@ -49,8 +49,8 @@
         to see. Lambda Notes also has other features that create a more
         enjoyable experience for users such as support for premade themes,
         tagging support for notes, and the ability to search by note title or
-        tag. I created this project using Reactjs, SQLite, Nodejs, and
-        Expressjs. " />
+        tag. I created this project using <strong>Reactjs, SQLite, Nodejs, and
+        Expressjs.</strong> " />
     </div>
   </div>
 </section>

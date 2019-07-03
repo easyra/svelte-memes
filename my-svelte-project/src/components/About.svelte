@@ -34,14 +34,14 @@
   }
 
   .socials {
-    max-width: 500px;
-    padding: 15px;
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     color: #ca2222;
+  }
+  .link {
+    margin: 0 25px 0 0px;
   }
   a {
     transition: all 0.2s;
@@ -60,6 +60,12 @@
       flex-wrap: wrap;
       justify-content: center;
       flex-direction: column-reverse;
+    }
+    .socials {
+      justify-content: space-around;
+    }
+    .link {
+      margin: 0;
     }
   }
 
@@ -86,6 +92,17 @@
         <strong>work together</strong>
         and build something great!
       </p>
+      <div class="socials">
+        <a href="" class="link">
+          <i class="fab fa-linkedin fa-5x" title="Linkedin" />
+        </a>
+        <a href="" class="link">
+          <i class="fab fa-github fa-5x" title="GitHub" />
+        </a>
+        <a href="" class="link">
+          <i class="fab fa-twitter fa-5x" title="Twitter" />
+        </a>
+      </div>
     </div>
     <div class="img-container">
       <img
@@ -94,15 +111,5 @@
 
     </div>
   </div>
-  <div class="socials">
-    <a href="">
-      <i class="fab fa-linkedin fa-5x" title="Linkedin" />
-    </a>
-    <a href="">
-      <i class="fab fa-github fa-5x" title="GitHub" />
-    </a>
-    <a href="">
-      <i class="fab fa-twitter fa-5x" title="Twitter" />
-    </a>
-  </div>
+
 </section>
