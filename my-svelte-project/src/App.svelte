@@ -11,6 +11,6 @@
 </style>
 
 <Nav {github} {resume} {linkedin} {email} />
-<About />
+<About {github} {resume} {linkedin} {email} />
 <Portfolio />
 <Footer {github} {resume} {linkedin} {email} />

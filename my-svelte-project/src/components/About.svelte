@@ -1,3 +1,7 @@
+<script>
+  export let resume, github, linkedin;
+</script>
+
 <style>
   .about {
     display: flex;
@@ -93,13 +97,13 @@
         and build something great!
       </p>
       <div class="socials">
-        <a href="" class="link">
+        <a href={linkedin} class="link">
           <i class="fab fa-linkedin fa-5x" title="Linkedin" />
         </a>
-        <a href="" class="link">
+        <a href={github} class="link">
           <i class="fab fa-github fa-5x" title="GitHub" />
         </a>
-        <a href="" class="link">
+        <a href={resume} class="link">
           <i class="fas fa-file fa-5x" title="Resume" />
         </a>
       </div>
