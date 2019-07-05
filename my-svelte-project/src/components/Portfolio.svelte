@@ -44,7 +44,8 @@
       <Project
         title="Lambda Notes"
         imgLink="https://i.imgur.com/TPdivrC.png"
-        github=""
+        github="https://github.com/easyra/back-end-project-week"
+        website="https://lambdanotes-ezra.netlify.com/"
         summary="Lambda Notes is a note taking application that allows users to
         organize their information in an efficient manner. Users are able to
         post notes to a <strong>REST API</strong> and have those notes be

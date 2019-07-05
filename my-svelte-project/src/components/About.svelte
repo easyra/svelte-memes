@@ -22,6 +22,9 @@
     padding: 15px;
     border-radius: 4px;
   }
+  .img-container img {
+    height: 100%;
+  }
   .text {
     max-width: 500px;
     width: 100%;
@@ -80,7 +83,8 @@
   }
 </style>
 
-<section class="about">
+<section class="about" name="top">
+
   <div class="content">
     <div class="text">
       <h1>Software Developer</h1>

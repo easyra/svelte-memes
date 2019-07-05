@@ -60,13 +60,16 @@
   <div class="text">
     <h3>
        {title}
-      <a href={github} class="link">
-        <i class="fab fa-github" title="Project Repo" />
-      </a>
-      <a href={website} class="link">
-        <i class="fas fa-wifi" title="Deployed Site" />
-      </a>
-
+      {#if github}
+        <a href={github} class="link">
+          <i class="fab fa-github" title="Project Repo" />
+        </a>
+      {/if}
+      {#if website}
+        <a href={website} class="link">
+          <i class="fas fa-wifi" title="Deployed Site" />
+        </a>
+      {/if}
     </h3>
     {#if teamSize && teamSize > 1}
       <h4>Team of {teamSize}</h4>

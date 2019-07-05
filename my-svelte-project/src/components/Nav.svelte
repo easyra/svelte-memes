@@ -65,7 +65,7 @@
 
 <header>
   <nav>
-    <h1 onclick={() => (document.scrollTop = 0)}>Ezra Davis</h1>
+    <h1 on:click={() => window.scrollTo(0, 0)}>Ezra Davis</h1>
     <i
       class="fas fa-bars fa-2x menu"
       on:click={() => (showMenu = !showMenu)}
